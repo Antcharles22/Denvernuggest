@@ -1,0 +1,66 @@
+ body {
+    width: 100%;
+    font-size: 32px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+header span {
+    padding: 1px 3px;
+    margin-right: 6px;
+}
+
+header img {
+    width: 75px;
+    height: auto;
+    padding-left: 8px;
+}
+
+
+.nav nav {
+    display: flex;
+    background-color: hsl(215,64%,15%);
+    justify-content: center;
+    justify-items: center;
+    border-bottom: 1px solid white;
+   
+}
+
+.nav a {
+    color: aliceblue;
+    padding: 10px 10px;
+}
+
+/* Banner */
+
+.banner {
+    padding-top: 350px;
+    padding-bottom: 50px;
+    background-image: url(./images/nuggets092322.jpeg);
+    color: white;
+  
+}
+    
+
+.banner h2 {
+    display: flex;
+    background-color: hsl(0,0%,0%,0.5);
+    justify-content: center;
+}
+
+
