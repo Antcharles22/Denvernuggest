@@ -2,6 +2,8 @@
     width: 100%;
     font-size: 32px;
     background-color: hsl(240,2%,92%);
+    align-content: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
     
 }
 
@@ -15,7 +17,13 @@ h1 {
 }
 
 h2 {
+    font-size: 4rem;
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 4rem;
 }
 
 header {
@@ -64,7 +72,7 @@ header img {
     color: white;
     margin-left: 100px;
     margin-right: 100px;
-  
+    
 }
     
 
@@ -76,11 +84,13 @@ header img {
 
 .box1 {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 500px;
     margin-left: 100px;
     margin-right: 100px;
     gap: 3rem;
     padding: 80px;
+    background-color: hsl(216,64%,15%);
+    margin-top: 10px;
    
 }
 
@@ -100,14 +110,199 @@ header img {
     padding: 0px 50px ;
     font-size: 1.8rem;
 }
-
-.niko img {
-    width: 80%;
+    
+    
+.right-box1 img {
+    display: flex;
+    justify-content: center;
+    width: 87%;
     height: 70%;
-    padding-right: 
+
 }
+ 
+
+   
 
 .niko-vid {
     display: grid;
     padding-top: 50px;
+}
+
+.players img {
+    width: 100%;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 100px;
+    gap: 20px;
+    background-color: hsl(216,64%,15%);
+    
+}
+
+.jokic {  
+    grid-column: 1/ span 2;
+    border: 1px solid black;
+    background-color: hsl(0,0%,80%);
+    padding: 10px;
+}
+
+.jokic article {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    
+}
+.murry {
+    grid-column: 3/ span 2;
+    background-color: hsl(0,0%,80%);
+    padding: 10px;
+}
+.murry article {
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+}
+
+.brown {
+    grid-column: 5/ span 2;
+    background-color: hsl(0,0%,80%);
+    padding: 10px;
+}
+
+.brown article {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.porter {
+    grid-column: 2/ span 2;
+    background-color: hsl(0,0%,80%);
+    padding: 10px;
+}
+.porter article {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    
+}  
+.aaron {
+    grid-column: 4/ span 2;
+    background-color: hsl(0,0%,80%);
+    padding: 10px;
+}
+ .aaron article {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 0px 100px;
+ }
+
+ .players span {
+    font-size: 5.5rem;
+ }
+
+ .boxes {
+    display: grid;
+    grid-template-rows:repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    border: 1px solid black;
+    height: 800px;
+    width: 800px;
+    padding: 10px;
+   
+
+}
+    
+        
+
+    .store {
+    display: grid;
+    align-content: center;
+    grid-template-rows:repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    
+    height: 1000px;
+    padding: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+    }
+
+.store1 {
+    grid-row: 1/ span 4;
+    grid-column: 2/ span 2;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.store1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.store2 {
+    grid-row: 1/ span 4;
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.store img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.store3 {
+ grid-row: 4/ span 1;
+ grid-column: 4/ span 2;
+ background-color: orange;
+ height: 100%;
+ width: 100%;
+ overflow: hidden;
+}
+
+.store3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    
+}
+
+.store4 {
+    grid-column: 4/ span 2;
+    grid-row: 1/ span 3;
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.store4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.store5 {
+    grid-column: 1/ span 5;
+    background-color: hsl(215,64%,15%);
+    height: 100%;
+    width: 100%;
+}
+
+.store5 p {
+    text-align: center;
+    font-size: 4.4rem;
+    color: azure;
 }
